@@ -2,7 +2,7 @@ Reference:
  
 I am working on errors: 
 
-Almost After taking the files from your device I compiled 67 erros and now more 2 errors are still availble to be solved for now  
+Almost I have compiled 67 erros and now more 2 errors are still availble to be solved for now  
 
 examples of errors:
 
