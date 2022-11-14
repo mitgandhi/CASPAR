@@ -10,5 +10,9 @@ examples of errors:
 3>main.obj : error LNK2019: unresolved external symbol "void * __cdecl fsti_netlic::checkout_license(enum fsti_netlic::license_type,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?checkout_license@fsti_netlic@@YAPAXW4license_type@1@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) referenced in function "int __cdecl slipper_standalone(int,char * * const,class input const &)" (?slipper_standalone@@YAHHQAPADABVinput@@@Z)
 3>E:\Job_1\J1\localCopy\caspar_slipper\DEBUG_1\caspar_slipper_dll.dll : fatal error LNK1120: 2 unresolved externals
 
+Note: 
+
+This Error are because the compiler for the software is not working for 64 bit processor and only working with 32 bit, But we don't have the fsti_netlic.lib for 32 bit compiler. So i am working on resolving the errors
+
 So For now It shows main errors are only 2. so after solving this probably almost done with the debugging part of caspar solver.
 
