@@ -2,41 +2,13 @@ Reference:
  
 I am working on errors: 
 
-Almost After taking the files from your device I compiled 37 erros and now more 30 errors are still availble to be solved for now  
+Almost After taking the files from your device I compiled 67 erros and now more 2 errors are still availble to be solved for now  
 
 examples of errors:
 
-1>CSlipperGap.obj : error LNK2019: unresolved external symbol "double * * __cdecl annAllocPts(int,int)" (?annAllocPts@@YAPAPANHH@Z) referenced in function "public: __thiscall CSlipperGap::CSlipperGap(class caspar_input *,class CGapResult &)" (??0CSlipperGap@@QAE@PAVcaspar_input@@AAVCGapResult@@@Z)
-1>CSlipperGap_EHD.obj : error LNK2001: unresolved external symbol "double * * __cdecl annAllocPts(int,int)" (?annAllocPts@@YAPAPANHH@Z)
-1>CSlipperGap_Thermal.obj : error LNK2001: unresolved external symbol "double * * __cdecl annAllocPts(int,int)" (?annAllocPts@@YAPAPANHH@Z)
-1>CSlipperGap.obj : error LNK2019: unresolved external symbol "public: __thiscall ANNkd_tree::ANNkd_tree(double * *,int,int,int,enum ANNsplitRule)" (??0ANNkd_tree@@QAE@PAPANHHHW4ANNsplitRule@@@Z) referenced in function "public: void __thiscall CSlipperGap::SlipperStartTimestep(class std::vector<double,class std::allocator<double> > &,class std::vector<double,class std::allocator<double> > &,class std::vector<double,class std::allocator<double> > &,class std::vector<double,class std::allocator<double> > &)" (?SlipperStartTimestep@CSlipperGap@@QAEXAAV?$vector@NV?$allocator@N@std@@@std@@000@Z)
-1>CSlipperGap_Debug.obj : error LNK2001: unresolved external symbol "public: __thiscall ANNkd_tree::ANNkd_tree(double * *,int,int,int,enum ANNsplitRule)" (??0ANNkd_tree@@QAE@PAPANHHHW4ANNsplitRule@@@Z)
-1>CSlipperGap_EHD.obj : error LNK2001: unresolved external symbol "public: __thiscall ANNkd_tree::ANNkd_tree(double * *,int,int,int,enum ANNsplitRule)" (??0ANNkd_tree@@QAE@PAPANHHHW4ANNsplitRule@@@Z)
-1>CSlipperGap_Thermal.obj : error LNK2001: unresolved external symbol "public: __thiscall ANNkd_tree::ANNkd_tree(double * *,int,int,int,enum ANNsplitRule)" (??0ANNkd_tree@@QAE@PAPANHHHW4ANNsplitRule@@@Z)
-1>CSlipperGap_vtk.obj : error LNK2001: unresolved external symbol "class blitz::IndexPlaceholder<1> blitz::tensor::j" (?j@tensor@blitz@@3V?$IndexPlaceholder@$00@2@A)
-1>CSlipperGap.obj : error LNK2001: unresolved external symbol "class blitz::IndexPlaceholder<1> blitz::tensor::j" (?j@tensor@blitz@@3V?$IndexPlaceholder@$00@2@A)
-1>CSlipperGap_EHD.obj : error LNK2001: unresolved external symbol "class blitz::IndexPlaceholder<1> blitz::tensor::j" (?j@tensor@blitz@@3V?$IndexPlaceholder@$00@2@A)
-1>CSlipperGap_Energy.obj : error LNK2001: unresolved external symbol "class blitz::IndexPlaceholder<1> blitz::tensor::j" (?j@tensor@blitz@@3V?$IndexPlaceholder@$00@2@A)
-1>CSlipperGap_Fluid.obj : error LNK2001: unresolved external symbol "class blitz::IndexPlaceholder<1> blitz::tensor::j" (?j@tensor@blitz@@3V?$IndexPlaceholder@$00@2@A)
-1>CSlipperGap_vtk.obj : error LNK2001: unresolved external symbol "class blitz::IndexPlaceholder<0> blitz::tensor::i" (?i@tensor@blitz@@3V?$IndexPlaceholder@$0A@@2@A)
-1>CSlipperGap_EHD.obj : error LNK2001: unresolved external symbol "class blitz::IndexPlaceholder<0> blitz::tensor::i" (?i@tensor@blitz@@3V?$IndexPlaceholder@$0A@@2@A)
-1>CSlipperGap_Energy.obj : error LNK2001: unresolved external symbol "class blitz::IndexPlaceholder<0> blitz::tensor::i" (?i@tensor@blitz@@3V?$IndexPlaceholder@$0A@@2@A)
-1>CSlipperGap_Fluid.obj : error LNK2001: unresolved external symbol "class blitz::IndexPlaceholder<0> blitz::tensor::i" (?i@tensor@blitz@@3V?$IndexPlaceholder@$0A@@2@A)
-1>CSlipperGap_Reynolds.obj : error LNK2001: unresolved external symbol "class blitz::IndexPlaceholder<0> blitz::tensor::i" (?i@tensor@blitz@@3V?$IndexPlaceholder@$0A@@2@A)
-1>CSlipperGap_EHD.obj : error LNK2001: unresolved external symbol "class blitz::IndexPlaceholder<2> blitz::tensor::k" (?k@tensor@blitz@@3V?$IndexPlaceholder@$01@2@A)
-1>CSlipperGap_Fluid.obj : error LNK2001: unresolved external symbol "class blitz::IndexPlaceholder<2> blitz::tensor::k" (?k@tensor@blitz@@3V?$IndexPlaceholder@$01@2@A)
-1>CSlipperGap_Reynolds.obj : error LNK2001: unresolved external symbol "class blitz::IndexPlaceholder<2> blitz::tensor::k" (?k@tensor@blitz@@3V?$IndexPlaceholder@$01@2@A)
-1>CSlipperGap_vtk.obj : error LNK2001: unresolved external symbol "class blitz::IndexPlaceholder<2> blitz::tensor::k" (?k@tensor@blitz@@3V?$IndexPlaceholder@$01@2@A)
-1>CSlipperGap_EHD.obj : error LNK2019: unresolved external symbol "void __cdecl annDeallocPt(double * &)" (?annDeallocPt@@YAXAAPAN@Z) referenced in function "public: void __thiscall CSlipperGap::Fluid2Slipper(void)" (?Fluid2Slipper@CSlipperGap@@QAEXXZ)
-1>CSlipperGap_Fluid.obj : error LNK2001: unresolved external symbol "void __cdecl annDeallocPt(double * &)" (?annDeallocPt@@YAXAAPAN@Z)
-1>CSlipperGap_Thermal.obj : error LNK2001: unresolved external symbol "void __cdecl annDeallocPt(double * &)" (?annDeallocPt@@YAXAAPAN@Z)
-1>CSlipperGap_EHD.obj : error LNK2019: unresolved external symbol "double * __cdecl annAllocPt(int,double)" (?annAllocPt@@YAPANHN@Z) referenced in function "public: void __thiscall CSlipperGap::Fluid2Slipper(void)" (?Fluid2Slipper@CSlipperGap@@QAEXXZ)
-1>CSlipperGap_Fluid.obj : error LNK2001: unresolved external symbol "double * __cdecl annAllocPt(int,double)" (?annAllocPt@@YAPANHN@Z)
-1>CSlipperGap_Thermal.obj : error LNK2001: unresolved external symbol "double * __cdecl annAllocPt(int,double)" (?annAllocPt@@YAPANHN@Z)
-1>main.obj : error LNK2019: unresolved external symbol "void __cdecl fsti_netlic::release_license(void *)" (?release_license@fsti_netlic@@YAXPAX@Z) referenced in function "int __cdecl slipper_standalone(int,char * * const,class input const &)" (?slipper_standalone@@YAHHQAPADABVinput@@@Z)
-1>main.obj : error LNK2019: unresolved external symbol "void * __cdecl fsti_netlic::checkout_license(enum fsti_netlic::license_type,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?checkout_license@fsti_netlic@@YAPAXW4license_type@1@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) referenced in function "int __cdecl slipper_standalone(int,char * * const,class input const &)" (?slipper_standalone@@YAHHQAPADABVinput@@@Z)
-1>E:\Job_1\J1\localCopy\caspar_slipper\Debug\caspar_slipper_dll.dll : fatal error LNK1120: 9 unresolved externals
+3>main.obj : error LNK2019: unresolved external symbol "void __cdecl fsti_netlic::release_license(void *)" (?release_license@fsti_netlic@@YAXPAX@Z) referenced in function "int __cdecl slipper_standalone(int,char * * const,class input const &)" (?slipper_standalone@@YAHHQAPADABVinput@@@Z)
+3>main.obj : error LNK2019: unresolved external symbol "void * __cdecl fsti_netlic::checkout_license(enum fsti_netlic::license_type,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?checkout_license@fsti_netlic@@YAPAXW4license_type@1@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) referenced in function "int __cdecl slipper_standalone(int,char * * const,class input const &)" (?slipper_standalone@@YAHHQAPADABVinput@@@Z)
+3>E:\Job_1\J1\localCopy\caspar_slipper\DEBUG_1\caspar_slipper_dll.dll : fatal error LNK1120: 2 unresolved externals
 
-
-So For now It shows main errors are only 9. so after solving this probably almost done with the debugging part of caspar solver.
+So For now It shows main errors are only 2. so after solving this probably almost done with the debugging part of caspar solver.
 
