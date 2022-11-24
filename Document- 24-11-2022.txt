@@ -1,4 +1,7 @@
-Compilation of the Caspar Slipper and Piston is completed.
+# Updatation #
 
-Initiated Phase 2 adding the Debug Mode in the caspar display for caspar_slipper & FSTI_Block_2.0
-. 
+$ Phase 1:
+$Compilation of the Caspar Slipper and Piston is completed.
+
+$ Phase 2:
+$ Initiated Phase 2 adding the Debug Mode in the caspar display for caspar_slipper & FSTI_Block_2.0. 
