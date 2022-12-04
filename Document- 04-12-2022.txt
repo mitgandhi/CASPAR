@@ -5,4 +5,6 @@ $ Piston Module with separate File Generation for final outputs of total leakage
 $ In Debug Phase Compilation of all three modules and In Release For Piston as well as Block is done. 
   This defines that any new addition can be done to piston and block modules from now as setup has been done for the following. 
 
-$ constrain to be discussed the modules which where prepared in past were made with vs code 2010 professtional IDE, So Thirdparty libraries which were used in this software are too old few have no updates, This means that it cannot be programmed on other newly surfaces and so we have to stick to old version of Visual studio. 
+# Constrain to be discussed #
+
+$ The modules which where prepared in past were made with vs code 2010 professtional IDE, So thirdparty libraries which are used in this software are too old. In addition few have no updates and this denotes that it cannot be programmed on other new surfaces and so we have to stick to old version of Visual studio 2010 Professional . 
