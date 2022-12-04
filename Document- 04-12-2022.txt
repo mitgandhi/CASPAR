@@ -1,0 +1,8 @@
+# Task # 
+
+$ Piston Module with separate File Generation for final outputs of total leakage, Total Torque & Total energy loss.
+
+$ In Debug Phase Compilation of all three modules and In Release For Piston as well as Block is done. 
+  This defines that any new addition can be done to piston and block modules from now as setup has been done for the following. 
+
+$ constrain to be discussed the modules which where prepared in past were made with vs code 2010 professtional IDE, So Thirdparty libraries which were used in this software are too old few have no updates, This means that it cannot be programmed on other newly surfaces and so we have to stick to old version of Visual studio. 
