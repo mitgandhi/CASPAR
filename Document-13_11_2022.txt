@@ -15,3 +15,4 @@ $ Examples of errors:
 $ This Error are because the compiler for the software is not working for 64 bit processor and only working with 32 bit, But we don't have the fsti_netlic.lib for 32 bit compiler. So i am working on resolving the errors.
 $ So For now It shows main errors are only 2. so after solving this probably almost done with the debugging part of caspar solver.
 
+QUESTION: Is there an update to this? 
